@@ -1,0 +1,27 @@
+{
+    "name": "jenkins-auto-restart",
+    "version": "1.0.0",
+    "description": "Personal stuff, jenkins autorestart.",
+    "main": "jenkins_auto_restart.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mtasuandi/jenkins-auto-restart.git"
+    },
+    "keywords": ["jenkins", "autorestart"],
+    "author": "M Teguh A Suandi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mtasuandi/jenkins-auto-restart/issues"
+    },
+    "homepage": "http://mtasuandi.github.io",
+    "dependencies": {
+        "request": "^2.74.0",
+        "ssh2shell": "^1.5.5",
+        "nodemailer": "^2.6.0",
+        "nodemailer-smtp-transport": "^2.7.2",
+        "moment": "^2.14.1"
+    }
+}
